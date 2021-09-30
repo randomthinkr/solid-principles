@@ -10,14 +10,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class TestRecommender {
 
 	Recommender recommender;
-	MoviesToWatch moviesToWatch;
 	CSVExporter csvExporter;
 
 	@BeforeEach
 	public void init() {
 		csvExporter = new CSVExporter();
-		moviesToWatch = new MoviesToWatch();
-		recommender = new Recommender(moviesToWatch);
+		recommender = new Recommender();
 	}
 
 	@Test
