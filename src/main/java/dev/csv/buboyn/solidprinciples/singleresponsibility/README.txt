@@ -12,7 +12,7 @@ The recommendation algorithm is based on proposing films from directors that the
 In addition, there is a test with two test methods. Both fail because they represent changes
 we want in our code.
 
-To run the test you must go to test/edu/solid/srp /TestRecommender.java and, with the right button
+To run the test you must go to TestRecommender.java and, with the right button
  select run as -> JUnit Test
 
 The test requires that you make two functional changes:
