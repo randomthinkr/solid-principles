@@ -9,7 +9,6 @@ public interface StockRepository {
 
 
 	// Database query method
-	
 	default int getStock(String shop, String product) {
 		return DataBase.stocks.get(shop).get(product);
 	}
